@@ -43,6 +43,7 @@ test('Add to cart', async ({ page }) => {
     await actions.clickIfPresent(mappings.common.couponOff);
     await actions.clickIfPresent(mappings.common.noThanks);
     await actions.refreshPage();
+    await actions.waitForElementToHidden(mappings.common.loadingImg);
     await assert.elementsHaveSameValue(mappings.cart.priceInPage, newPrice ?? '');
     await assert.elementsHaveSameValue(mappings.header.cartCount, '1');
 
