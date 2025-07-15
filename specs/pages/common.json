@@ -1,0 +1,10 @@
+{
+    "loadingImg": {
+        "name": "loading Icon",
+        "selector": "img[src*='christmas_ball_ornament_active.svg']"
+    },
+    "closeDialog": {
+        "name": "close Dialog",
+        "selector": "button[title='Close Dialog']"
+    }
+}

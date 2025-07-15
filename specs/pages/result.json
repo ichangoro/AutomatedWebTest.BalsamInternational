@@ -1,0 +1,14 @@
+{
+    "result": {
+        "name": "Result",
+        "selector": "div.col-md-4.col-12:nth-of-type({n})"
+    },
+    "productLink": {
+        "name": "Product Link",
+        "selector": "//div[@data-testid='results-grid']/div/div[{n}]//a[@data-testid='undefined-lbl-undefinedname']"
+    },
+    "price": {
+        "name": "Price",
+        "selector": "//div[@data-testid='results-grid']/div/div[{n}]//span[contains(@class,'productCard_prod-sale-price')]"
+    }
+}

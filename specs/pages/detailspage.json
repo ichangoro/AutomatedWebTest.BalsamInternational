@@ -1,0 +1,22 @@
+{
+    "productLabel": {
+        "name": "Product Label",
+        "selector": "//div[contains(@class,'productDetailNameRating')]/h1"
+    },
+    "productPrice": {
+        "name": "Product Price",
+        "selector": "//span[contains(@class,'productPrice_new-price')]"
+    },
+    "productHeight": {
+        "name": "Product Height",
+        "selector": "//div[contains(@class,'small-product-filter-box')][{n}]"
+    },
+    "productLights": {
+        "name": "Product Lights",
+        "selector": "//div[contains(@class,'large-product-filter-box')][{n}]"
+    },
+    "addToCartButton": {
+        "name": "Add To Cart Button",
+        "selector": "#dy-container + button"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "priceDialog": {
+        "name": "Price Dialog",
+        "selector": "//span[contains(text(),'Price')]/following-sibling::span"
+    },
+    "priceInPage": {
+        "name": "Price In Page",
+        "selector": "//span[contains(@class,'cartProductDetailItem_new_price')]"
+    },
+    "viewCartButton": {
+        "name": "View Cart Button",
+        "selector": "//button[@data-testid='pdc-add-to-cart-modal-btn-viewcart']"
+    },
+    "deleteButton": {
+        "name": "Delete Button",
+        "selector": "//button[contains(@data-testid,'cc-btn-remove')]"
+    }
+}

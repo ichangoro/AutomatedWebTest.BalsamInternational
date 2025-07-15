@@ -1,0 +1,6 @@
+# dependencies
+node_modules
+
+#allure
+allure-report
+allure-results

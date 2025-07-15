@@ -1,0 +1,11 @@
+{
+    "searchInput": {
+        "name": "Search Input",
+        "selector": "#constructor-search-input",
+        "value": "Christmas Tree"
+    },
+    "cartCount": {
+        "name": "Cart Count",
+        "selector": "//span[contains(@class,'headerIcons_custom-badge')]"
+    }
+}
