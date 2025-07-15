@@ -18,6 +18,13 @@ export class PageActions {
     });
   }
 
+  // Refresh page function
+  async refreshPage() {
+    await allure.step('Refresh the page', async () => {
+      await this.page.reload();
+    });
+  }
+
   // Clicks an element if it is present
   async clickIfPresent(element: { name: string; selector: string }) {
     await allure.step(`Click on ${element.name} if present`, async () => {

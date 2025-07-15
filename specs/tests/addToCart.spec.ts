@@ -40,6 +40,9 @@ test('Add to cart', async ({ page }) => {
     await actions.waitForElementToHidden(mappings.common.loadingImg);
     await actions.wait(5); // added because sometimes the cart page takes time to load
     await actions.clickIfPresent(mappings.common.closeDialog);
+    await actions.clickIfPresent(mappings.common.couponOff);
+    await actions.clickIfPresent(mappings.common.noThanks);
+    await actions.refreshPage();
     await assert.elementsHaveSameValue(mappings.cart.priceInPage, newPrice ?? '');
     await assert.elementsHaveSameValue(mappings.header.cartCount, '1');
 
