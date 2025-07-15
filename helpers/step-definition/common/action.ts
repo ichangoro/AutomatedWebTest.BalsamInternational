@@ -18,6 +18,20 @@ export class PageActions {
     });
   }
 
+  // Clicks an element if it is present
+  async clickIfPresent(element: { name: string; selector: string }) {
+    await allure.step(`Click on ${element.name} if present`, async () => {
+      const el = await this.page.$(element.selector);
+      if (el) {
+        await el.click();
+        console.log(`[ACTION] Clicked on ${element.name}`);
+      } else {
+        console.log(`[ACTION] ${element.name} not present, skipping click.`);
+        return;
+      }
+    });
+  }
+
   // Fills an input field with a value
   async fillInput(element: { name: string; selector: string }, value: string, pressEnter: boolean = false) {
     await allure.step(`Enter value "${value}" into ${element.name}`, async () => {
