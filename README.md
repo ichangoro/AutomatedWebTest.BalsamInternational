@@ -34,12 +34,12 @@ This project is an automated end-to-end web testing framework for Balsam Interna
                 - For Variable name, enter: JAVA_HOME
                 - For Variable value, paste your JDK path (e.g., C:\Program Files\Java\jdk-18.0.2)
                 - Click OK
-            5.) Add Java to the PATH variable (optional but recommended)
+            e.) Add Java to the PATH variable (optional but recommended)
                 - In System variables, find and select the Path variable, then click Edit...
                 - Click New and add: %JAVA_HOME%\bin
                 - Click OK to save
-            6.) Apply and close all dialogs
-            7.) Verify JAVA_HOME
+            f.) Apply and close all dialogs
+            g.) Verify JAVA_HOME
                 - Open a new Command Prompt and run: java -version
 
 ## Clone and repository installation command
@@ -50,7 +50,8 @@ This project is an automated end-to-end web testing framework for Balsam Interna
         - npm install (you will notice that a node_modules folder will be available in your files tree)       
         - npm install -g allure-commandline
         - npx playwright install (to ensure all browser engines are installed.)
-    3. check .env file is present and has the intended value "BASE_URL=https://www.balsamhill.com/"
+    3. After cloning default branch is set to main, please switch to the current work branch "feature/initialSetup".        
+    4. check .env file is present and has the intended value "BASE_URL=https://www.balsamhill.com/"
 
 ## Running test - we have ways to run
     Option 1: Open the target test (specs\tests\addToCart.spec.ts) make sure file is open then press F5 (I have created a debugger for this repository)
