@@ -20,8 +20,8 @@ This project is an automated end-to-end web testing framework for Balsam Interna
     1. Install Node.js
         Download and install Node.js (recommended: v18 or higher).
     2. Install Java JDK 
-        Download and install Java JDK 18 (required for Allure report generation). - here's what i used for this project (https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html) 
-    3. Once install Set JAVA_HOME on Windows (you can watch it here: https://www.youtube.com/watch?v=yGxCQisOL1A)
+        Download and install Java JDK 18 (required for Allure report generation). - here's what i used for this project (**https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html**) 
+    3. Once install Set JAVA_HOME on Windows (you can watch it here: **https://www.youtube.com/watch?v=yGxCQisOL1A**)
             a.) Find your Java installation path
                 - For example: C:\Program Files\Java\jdk-18.0.2
             b.) Copy the path
