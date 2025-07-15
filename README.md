@@ -50,7 +50,7 @@ This project is an automated end-to-end web testing framework for Balsam Interna
         - npm install (you will notice that a node_modules folder will be available in your files tree)       
         - npm install -g allure-commandline
         - npx playwright install (to ensure all browser engines are installed.)
-    3. After cloning default branch is set to main, please switch to the current work branch "feature/initialSetup".        
+    3. After cloning default branch is set to main, please switch to the current work branch by running this command: "git checkout feature/initialSetup".        
     4. check .env file is present and has the intended value "BASE_URL=https://www.balsamhill.com/"
 
 ## Running test - we have ways to run
